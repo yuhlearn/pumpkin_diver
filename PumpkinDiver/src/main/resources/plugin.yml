@@ -1,0 +1,14 @@
+main: org.monkeyofavon.pumpkindiver.App
+name: PumpkinDiver
+version: 0.1
+api-version: 1.15
+commands:
+   pumpkindiver:
+      description: Change settings for the PumpkinDiver plugin.
+      usage: /pumpkindiver [0-9]
+      permission: pumpkindiver.settings
+      permission-message: You don't have permission to modify PumpkinDiver settings.
+permissions:
+  pumpkindiver.settings:
+    description: Allows you to change PumpkinDiver settings.
+    default: op
